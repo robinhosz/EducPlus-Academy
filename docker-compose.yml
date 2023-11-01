@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=educplus'
+      - 'POSTGRES_PASSWORD=123'
+      - 'POSTGRES_USER=root'
+      - 'POSTGRES_PORT=5432'
+      - 'POSTGRES_HOST=localhost'
+    ports:
+      - '5432:5432'
