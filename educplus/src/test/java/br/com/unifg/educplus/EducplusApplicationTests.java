@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class EducplusApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void main() {
+		EducplusApplication.main(new String[] {});
 	}
 
 }

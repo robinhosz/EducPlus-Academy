@@ -2,10 +2,7 @@ package br.com.unifg.educplus.domain.entity;
 
 
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import jakarta.persistence.*;
 
 import java.util.List;
@@ -14,6 +11,7 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Entity
 @Table(name = "users")
 public class User {
